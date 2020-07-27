@@ -274,6 +274,123 @@ footer{
 
 
 
+@media only screen and (max-width: 660px) {
+
+  .header-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.166);
+  z-index: 1;
+  }
+
+  .header-content{
+  z-index: 2;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+  
+  margin-bottom: 30px;
+  }
+  .header-content .corona{
+   padding: 10px;
+   border: 3px solid rgb(185, 14, 14);
+   background-color: rgb(185, 14, 14);
+   color: rgb(192, 190, 190);
+   font-size:15px;
+  }
+  .header-content .virus{
+  padding: 10px;
+  border: 3px solid rgb(192, 190, 190);
+  background-color: rgb(192, 190, 190) ;
+  color:rgb(185, 14, 14) ;
+  font-size:15px;
+  }
+
+  .header-content h4{
+  font-size:18px;
+  }
+
+  .about  h1{
+  margin-left:0 !important;
+  padding-left:0 !important;
+  }
+  .rightside{
+  position: absolute;
+  top: -50%;
+  transform: translateY(50%);
+  }
+  .rightside p{
+  color:#fff;
+  font-size:18px !important;
+  font-weight:normal !important;
+  }
+  .about {
+    position: relative;
+    height: 165vh !important;
+    width: 100%;
+    padding-top: 100px;
+    background-color: black;
+    
+  }
+  .about .heading{
+  color:#fff;
+  font-size:30px;
+  }
+  .about h2{
+  position: absolute;
+  top: -45%;
+  transform: translateY(45%);
+  color:#fff;
+  }
+  .symptoms {
+    height: 180vh;
+    width: 100%;
+    position: relative;
+    color: rgb(185, 14, 14);
+    margin-top: 100px;
+  }
+  .heading {
+  font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    
+  }
+  .prevention{
+  height:400vh;
+  }
+
+  .corona_update h3{
+  font-size:20px;
+  font-weight:700;
+  }
+  .corona_update{
+    height:70vh;
+  }
+  .sp{
+  position: relative;
+    width: 100%;
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+  }
+  #iframe-container{
+  transform:translateX(-50%);
+  }
+  .symptoms{
+    height:100vh;
+  }
+
+  .contact{
+  font-size:15px;
+  margin-top:20%;
+  }
+
+}
+
+
+
 
 
 
